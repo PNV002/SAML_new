@@ -1,0 +1,9 @@
+# URL.txt file containing the following variables:
+# - entity_id: URL for the SAML entity ID
+# - acs_url: Assertion Consumer Service URL
+# - okta_sso_url: Okta Single Sign-On URL
+# - redirect_url: URL for redirecting after signout, replace with your Okta domain
+entity_id=http://localhost:5000/user/saml/login
+acs_url=http://localhost:5000/user/saml/login
+okta_sso_url=https://dev-18615030.okta.com/app/dev-18615030_samldemo_3/exkf8znpymURITvYu5d7/sso/saml
+redirect_url=https://dev-18615030.okta.com/login/signout
